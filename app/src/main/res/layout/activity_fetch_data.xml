@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/orange"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fetchData">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:text="select name for delete data"
+        ></TextView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/text"
+    android:layoutAnimation="@anim/layput_animation"
+    android:id="@+id/recView"
+    ></androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

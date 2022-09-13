@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LOGIN</string>
+    <string name="small_10DP_change">10dp</string>
+    <string name="small_text">10dp</string>
+    <dimen name="big_text">25dp</dimen>
+    <dimen name="small_outline">1dp</dimen>
+</resources>

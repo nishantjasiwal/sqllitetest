@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/teal_200</item>
+    <item name="colorPrimaryDark">@color/teal_200</item>
+    <item name="colorAccent">@color/teal_200</item>
+  </style>
+  <style name="customLayout">
+
+    <item name="android:layout_marginTop">1dp</item>
+    <item name="android:layout_marginLeft">1dp</item>
+    <item name="android:layout_marginRight">1dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+
+</style>
+  <style name="customLayoutButton">
+
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+
+  </style>
+
+
+  <style name="Cut" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">12dp</item>
+  </style>
+
+  <style name="Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">16dp</item>
+  </style>
+</resources>
